@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AcademiaApp",
+            "request": "launch",
+            "mainClass": "AcademiaApp",
+            "projectName": "Academia_bf4e46bf"
+        },
+        {
+            "type": "java",
+            "name": "Executar AcademiaApp",
+            "request": "launch",
+            "mainClass": "AcademiaApp",
+            "projectName": "Academia",
+            "classPaths": [
+                "${workspaceFolder}/lib/sqlite-jdbc.jar"
+            ]
+        }
+    ]
+}
